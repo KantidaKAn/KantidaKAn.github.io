@@ -1,0 +1,92 @@
+.u-clearfix:before,
+.u-clearfix:after {
+    content: " ";
+}
+
+.u-clearfix:after {
+    clear: both;
+}
+
+.subtle {
+    color: rgb(110, 110, 110);
+}
+
+.Acard-container {
+    margin: -25px auto 0;
+    position: relative;
+    width: 750px;
+}
+
+.Acard {
+    padding: 30px;
+    position: relative;
+}
+
+.Acard-body {
+    display: inline-block;
+    width: 800px;
+}
+
+.Acard-number {
+    margin-top: 15px;
+}
+
+.Acard-author {
+    display: block;
+    font-size: 20px;
+    letter-spacing: .5px;
+    margin: 15px 0 0;
+    text-transform: uppercase;
+}
+
+.Acard-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 40px;
+    font-weight: 350;
+    line-height: 60px;
+    margin: 15px 0;
+}
+
+.Acard-description {
+    display: inline-block;
+    font-weight: 600;
+    line-height: 22px;
+    margin: 10px 0;
+}
+
+.Acard-read {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin: 5px 0 10px;
+    position: relative;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.Acard-read:after {
+    background-color: #b8bddd;
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    top: 10px;
+    width: 80%;
+}
+
+.Acard-tag {
+    float: right;
+    margin: 5px 0 0;
+}
+
+.Acard-media {
+    max-width: 800px;
+    height: 600px;
+}
+
+@media only screen and (max-width: 775px) {
+    .Acard-media {
+       opacity: 0;
+    }
+}
